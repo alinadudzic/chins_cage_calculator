@@ -1,0 +1,39 @@
+body{ background-image: url("https://moondust.pl/wp-content/uploads/2019/05/moonground.png");
+}
+
+div {vertical-align: middle;}
+
+.calculate {
+    width: 50%;
+    margin: 10% auto;
+    background: white; 
+    text-align: center;
+    width: 50vw;
+    border-radius: 25px; 
+    padding: 40px;
+    box-shadow: 0 0 5em #c0c0c0;
+}
+
+
+    input {margin: 10px;
+        padding: 10px;
+        border-radius: 25px;
+        border-color: #2e006d;
+        border-style: dotted;
+    }
+    
+p {font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-transform: uppercase;
+font-weight: 600;}
+
+.input_description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2e006d;}
+
+.button {background-color: #c0c0c0;
+    border-style: outset;
+    background-image: linear-gradient(to bottom right, #2e006d, #c0c0c0);
+    border-color:#2e006d;
+    padding-left: 60px;
+    padding-right: 60px;
+}
