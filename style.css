@@ -28,12 +28,21 @@ font-weight: 600;}
 
 .input_description {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #2e006d;}
+    color: #343434;
+    text-transform: uppercase;
+font-size: x-small;
+font-weight: 600;}
 
 .button {background-color: #c0c0c0;
     border-style: outset;
-    background-image: linear-gradient(to bottom right, #2e006d, #c0c0c0);
-    border-color:#2e006d;
+    background: radial-gradient(#2e006d, #a285c9);
+    border-color:#ffffff;
     padding-left: 60px;
     padding-right: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+
 }
+.button:hover {background: radial-gradient(#a285c9, #2e006d);}
