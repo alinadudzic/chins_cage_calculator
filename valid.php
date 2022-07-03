@@ -1,7 +1,7 @@
 <?php
 
-if (isset($_POST['weight'])) {
-    $weight = $_POST['weight'];
+if (isset($_POST['width'])) {
+    $width = $_POST['width'];
 }
 
 
@@ -13,8 +13,8 @@ if (isset($_POST['height'])) {
     $height = $_POST['height'];
 }
 
-if (strlen($weight) > 1 && strlen($height) > 1 && strlen($lenght) > 1) {
-    $result = (int) $weight * (int) $height * (int) $lenght;
+if (strlen($width) > 1 && strlen($height) > 1 && strlen($lenght) > 1) {
+    $result = (int) $width * (int) $height * (int) $lenght;
     if (($result / 112000) >= 1) {
         echo 'Twoja klatka pomieści ';
         $cage = round($result / 112000);

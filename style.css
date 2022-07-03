@@ -3,6 +3,13 @@ body{ background-image: url("https://moondust.pl/wp-content/uploads/2019/05/moon
 
 div {vertical-align: middle;}
 
+
+p {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;}
+
+/* calculator */
+
 .calculate {
     width: 50%;
     margin: 10% auto;
@@ -13,25 +20,8 @@ div {vertical-align: middle;}
     padding: 40px;
     box-shadow: 0 0 5em #c0c0c0;
 }
-
-
-    input {margin: 10px;
-        padding: 10px;
-        border-radius: 25px;
-        border-color: #2e006d;
-        border-style: dotted;
-    }
-    
-p {font-family: Verdana, Geneva, Tahoma, sans-serif;
-text-transform: uppercase;
-font-weight: 600;}
-
-.input_description {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #343434;
-    text-transform: uppercase;
-font-size: x-small;
-font-weight: 600;}
+.flex { display: flex;
+    justify-content: center;}
 
 .button {background-color: #c0c0c0;
     border-style: outset;
@@ -46,3 +36,22 @@ font-weight: 600;}
 
 }
 .button:hover {background: radial-gradient(#a285c9, #2e006d);}
+
+/* calculator input */
+
+    input {margin: 10px;
+        padding: 10px;
+        border-radius: 25px;
+        border-color: #2e006d;
+        border-style: dotted;
+    }
+    
+
+
+.input_description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #343434;
+    text-transform: uppercase;
+font-size: x-small;
+font-weight: 600;}
+
