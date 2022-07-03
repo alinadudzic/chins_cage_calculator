@@ -1,17 +1,9 @@
 <?php
+$height = $_POST['height'] ?? 0;
 
-if (isset($_POST['width'])) {
-    $width = $_POST['width'];
-}
+$width = $_POST['width'] ?? 0;
 
-
-if (isset($_POST['length'])) {
-    $lenght = $_POST['length'];
-}
-
-if (isset($_POST['height'])) {
-    $height = $_POST['height'];
-}
+$length = $_POST['length'] ?? 0;
 
 if (strlen($width) > 1 && strlen($height) > 1 && strlen($length) > 1) {
     $result = (int) $width * (int) $height * (int) $length;
