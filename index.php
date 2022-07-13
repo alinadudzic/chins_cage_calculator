@@ -12,6 +12,6 @@
             <div><span class="input_description">szerokość:</span></div><div> <input type="number" name="width" required><br></div>
             <div><span class="input_description">długość:</span></div><div> <input type="number" name="length" required><br></div>
             <div><input class="button" type="submit"></div>
-        </form></div></div><div?></div>
+        </form></div></div>
     </body>
 </html>
